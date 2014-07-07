@@ -5,7 +5,8 @@ Simple javascript to pull a set number of photos from instagram's feed that are 
 To demo online: http://instamuseum.herokuapp.com/
 (Live version uses a sample list of relevant terms from a project in the workshop.)
 
-To host yourself
-	- obtain a client_id from http://instagram.com/developer/register/
-	- in config_template.js replace INSTAGRAM_CLIENT_ID_GOES_HERE with your client_id
-	- replace the array of terms with your own
+To host yourself:
+
+* obtain a client_id from http://instagram.com/developer/register/
+* in *config_template.js* replace INSTAGRAM_CLIENT_ID_GOES_HERE with your client_id
+* replace the array of terms with your own
