@@ -1,11 +1,10 @@
+<!DOCTYPE html>
 <!--[if lt IE 8]><html class="no-js ie6 oldie" lang="en"> 
 <![endif]--><!--[if IE 7]><html class="no-js ie7 oldie" lang="en">
 <![endif]--><!--[if IE 8]><html class="no-js ie8 oldie" lang="en">
-<![endif]--><!--[if gt IE 8]><!-->
-
-<html class="no-js" lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<!--
 <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
 
 <head>
 
@@ -20,14 +19,10 @@
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 
   
-  <!-- end CSS-->
-	<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
-	<script type="text/javascript" src="http://underscorejs.org/underscore-min.js"></script>
-	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
 	<script src="config.js"></script>
 
 
-<!-- <script type="text/javascript" src="js/libs/imagesloaded.pkgd.min.js"></script> -->
 
 <style>
 
@@ -153,7 +148,9 @@ li.pero.highlight {
 
 
 
- 
+ 	<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="http://underscorejs.org/underscore-min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
 
 <script>
@@ -211,7 +208,7 @@ li.pero.highlight {
 			loop++
 			console.log(loop);
 
-			if(loop < 10) {
+			if(loop < 10 && x.pagination.next_url) {
 				getData(x.pagination.next_url);	
 			
 			} else {
