@@ -11,4 +11,4 @@ To host yourself:
 * in *config.js* replace INSTAGRAM_CLIENT_ID_GOES_HERE with your client_id
 * replace the array of terms with your own
 
-Uses [HTML5 Boilerplate](http://html5boilerplate.com/) and [Bootstrap](getbootstrap.com).
+Uses [HTML5 Boilerplate](http://html5boilerplate.com/) and [Bootstrap](http://getbootstrap.com/).
