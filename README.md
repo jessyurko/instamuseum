@@ -8,7 +8,7 @@ To demo online: http://instamuseum.herokuapp.com/
 To host yourself:
 
 * obtain a client_id from http://instagram.com/developer/register/
-* in *config_template.js* replace INSTAGRAM_CLIENT_ID_GOES_HERE with your client_id
+* in *config.js* replace INSTAGRAM_CLIENT_ID_GOES_HERE with your client_id
 * replace the array of terms with your own
 
 Uses [HTML5 Boilerplate](http://html5boilerplate.com/) and [Bootstrap](getbootstrap.com).
